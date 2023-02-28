@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  opacity: 1; }
+
+img {
+  max-width: 100%; }
+
+.container {
+  width: 1140px;
+  margin: 0 auto; }
+
+#header {
+  margin-top: 35px; }
+  #header .inner_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 38px; }
+    #header .inner_header .menu {
+      list-style-type: none;
+      display: flex; }
+      #header .inner_header .menu > li a {
+        text-decoration: none;
+        font-weight: 400;
+        color: #000;
+        padding: 5px 40px 5px 0; }
+    #header .inner_header .links a {
+      margin: 12px; }
+  #header .main_header {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 768px;
+    position: relative; }
+    #header .main_header .line {
+      height: 1px;
+      width: 50px;
+      background-color: #8B8371;
+      margin: 8px; }
+    #header .main_header .price {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 140px;
+      top: 18%;
+      left: 40%;
+      font-family: Prata; }
+      #header .main_header .price .money {
+        font-size: 16px;
+        font-weight: 400; }
+    #header .main_header .catalog {
+      display: flex;
+      justify-content: flex-start;
+      position: absolute;
+      top: 30%;
+      align-items: start; }
+      #header .main_header .catalog .line {
+        margin-top: 35px;
+        margin-right: 15px; }
+      #header .main_header .catalog .header {
+        font-size: 45px;
+        font-weight: 400;
+        font-family: Playfair; }
+      #header .main_header .catalog .title {
+        font-size: 30px;
+        font-weight: 400;
+        font-family: Playfair; }
+      #header .main_header .catalog .descr {
+        font-size: 14px;
+        font-weight: 300;
+        width: 220px;
+        margin-top: 18px; }
+      #header .main_header .catalog .btn {
+        background-color: #444240;
+        color: #fff;
+        padding: 26px 38px 27px;
+        margin-top: 38px;
+        cursor: pointer;
+        border: none;
+        text-transform: uppercase; }
+    #header .main_header > img {
+      position: absolute;
+      left: 43%;
+      top: -1%; }
+    #header .main_header .size {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 84%;
+      left: 82%;
+      font-family: Prata; }
+
+#models .container {
+  margin-top: 50px; }
+#models .head {
+  position: relative;
+  margin-bottom: 65px; }
+  #models .head .title {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Playfair; }
+  #models .head .see_all {
+    float: right; }
+    #models .head .see_all a {
+      color: #000;
+      text-decoration: none; }
+    #models .head .see_all .line {
+      height: 1px;
+      width: 101px;
+      background-color: #8B8371;
+      margin-top: 6px; }
+#models .models {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px; }
+  #models .models img {
+    background-image: url(../img/models/bg_ellipse.svg);
+    background-repeat: no-repeat;
+    background-position: center; }
+  #models .models .model .header {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Playfair; }
+  #models .models .model .price {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Prata; }
+  #models .models .model .about {
+    display: flex;
+    align-items: center;
+    margin: 18px 0; }
+    #models .models .model .about .line {
+      height: 1px;
+      width: 30px;
+      background-color: #8B8371; }
+    #models .models .model .about a {
+      color: #000;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 400;
+      margin-left: 18px;
+      font-family: Playfair; }
+
+#slider {
+  margin: 100px 0;
+  background-image: url(../img/slider/right_bg.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  min-height: 520px; }
+  #slider .container .slider {
+    padding-top: 61px; }
+    #slider .container .slider .wrap {
+      position: relative; }
+  #slider .container .slider-item {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #slider .container .slider-item img {
+      max-width: 80%; }
+    #slider .container .slider-item .slider-text {
+      margin-left: 70px; }
+      #slider .container .slider-item .slider-text h2 {
+        font-size: 32px;
+        font-weight: 400;
+        margin-bottom: 32px;
+        font-family: Playfair; }
+      #slider .container .slider-item .slider-text p {
+        font-size: 16px;
+        font-weight: 400; }
+      #slider .container .slider-item .slider-text .btn {
+        font-size: 12px;
+        font-weight: 500;
+        background-color: #D4B098;
+        color: #fff;
+        padding: 26px 38px 27px;
+        margin-top: 38px;
+        cursor: pointer;
+        border: none; }
+  #slider .container .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    position: absolute; }
+  #slider .container .btns::before {
+    content: "";
+    padding: 20px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none; }
+  #slider .container .number {
+    left: 46.5%;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Prata; }
+  #slider .container .prev {
+    background-image: url(../img/slider/arrow_left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 45%; }
+  #slider .container .next {
+    background-image: url(../img/slider/arrow_right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 50%; }
+
+#news {
+  margin-bottom: 90px; }
+  #news .news {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #news .news .news_title {
+      margin-right: 42px; }
+      #news .news .news_title h2 {
+        font-size: 32px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        font-family: Playfair; }
+      #news .news .news_title p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 107px; }
+        #news .news .news_title p span {
+          font-weight: 700; }
+      #news .news .news_title .links img {
+        margin: 10px; }
+    #news .news .news_image {
+      display: grid;
+      grid-template-columns: 250px 377px;
+      grid-auto-rows: 237px; }
+      #news .news .news_image .image1 {
+        grid-column: 1/2;
+        grid-row: 1/2; }
+      #news .news .news_image .image2 {
+        grid-column: 1/2;
+        grid-row: 2/2; }
+      #news .news .news_image .image3 {
+        grid-column: 2/2; }
+
+#footer {
+  background-color: #444240; }
+  #footer .container {
+    padding: 79px 0 67px;
+    max-width: 998px; }
+    #footer .container .mnu_footer_wrapper {
+      display: flex;
+      justify-content: space-between; }
+      #footer .container .mnu_footer_wrapper .logo_info img {
+        padding-bottom: 30px; }
+      #footer .container .mnu_footer_wrapper .logo_info p {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        opacity: 0.75; }
+      #footer .container .mnu_footer_wrapper .mnu_footer {
+        display: flex;
+        flex-direction: column; }
+        #footer .container .mnu_footer_wrapper .mnu_footer .heading {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 700;
+          text-transform: uppercase;
+          padding-bottom: 30px; }
+        #footer .container .mnu_footer_wrapper .mnu_footer ul {
+          list-style-type: none; }
+          #footer .container .mnu_footer_wrapper .mnu_footer ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 400;
+            opacity: 0.75; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,293 @@
+*
+	margin: 0
+	padding: 0
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: "Roboto", sans-serif
+	overflow-x: hidden
+	opacity: 1
+
+img
+	max-width: 100%
+
+.container
+	width: 1140px
+	margin: 0 auto
+#header
+	margin-top: 35px
+	.inner_header
+		display: flex
+		justify-content: space-between
+		margin-bottom: 38px
+		.menu
+			list-style-type: none
+			display: flex
+			>li
+				a
+					text-decoration: none
+					font-weight: 400
+					color: #000
+					padding: 5px 40px 5px 0
+		.links
+			a
+				margin: 12px
+	.main_header
+		background-position: center
+		background-repeat: no-repeat
+		height: 768px
+		position: relative
+		.line
+			height: 1px
+			width: 50px
+			background-color: #8B8371
+			margin: 8px
+		.price
+			position: absolute
+			display: flex
+			justify-content: center
+			align-items: center
+			max-width: 140px
+			top: 18%
+			left: 40%
+			font-family: Prata
+			.money
+				font-size: 16px
+				font-weight: 400
+		.catalog
+			display: flex
+			justify-content: flex-start
+			position: absolute
+			top: 30%
+			align-items: start
+			.line
+				margin-top: 35px
+				margin-right: 15px
+			.header
+				font-size: 45px
+				font-weight: 400
+				font-family: Playfair
+			.title
+				font-size: 30px
+				font-weight: 400
+				font-family: Playfair
+			.descr
+				font-size: 14px
+				font-weight: 300
+				width: 220px
+				margin-top: 18px
+			.btn
+				background-color: #444240
+				color: #fff
+				padding: 26px 38px 27px
+				margin-top: 38px
+				cursor: pointer
+				border: none
+				text-transform: uppercase
+		>img
+			position: absolute
+			left: 43%
+			top: -1%
+		.size
+			position: absolute
+			display: flex
+			justify-content: center
+			align-items: center
+			top: 84%
+			left: 82%
+			font-family: Prata
+
+#models
+	.container
+		margin-top: 50px
+	.head
+		position: relative
+		margin-bottom: 65px
+		.title
+			font-size: 32px
+			font-weight: 400
+			text-align: center
+			font-family: Playfair
+		.see_all
+			float: right
+			a
+				color: #000
+				text-decoration: none
+			.line
+				height: 1px
+				width: 101px
+				background-color: #8B8371
+				margin-top: 6px
+	.models
+		display: flex
+		justify-content: space-between
+		align-items: center
+		margin-bottom: 100px
+		img
+			background-image: url(../img/models/bg_ellipse.svg)
+			background-repeat: no-repeat
+			background-position: center
+		.model
+			.header
+				font-size: 14px
+				font-weight: 700
+				text-transform: uppercase
+				font-family: Playfair
+			.price
+				font-size: 14px
+				font-weight: 400
+				font-family: Prata
+			.about
+				display: flex
+				align-items: center
+				margin: 18px 0
+				.line
+					height: 1px
+					width: 30px
+					background-color: #8B8371
+				a
+					color: #000
+					text-decoration: none
+					font-size: 16px
+					font-weight: 400
+					margin-left: 18px
+					font-family: Playfair
+
+#slider
+	margin: 100px 0
+	background-image: url(../img/slider/right_bg.svg)
+	background-position: right
+	background-repeat: no-repeat
+	min-height: 520px
+	.container
+		.slider
+			padding-top: 61px
+			.wrap
+				position: relative
+		.slider-item
+			display: flex
+			align-items: center
+			justify-content: center
+			img
+				max-width: 80%
+			.slider-text
+				margin-left: 70px
+				h2
+					font-size: 32px
+					font-weight: 400
+					margin-bottom: 32px
+					font-family: Playfair
+				p
+					font-size: 16px
+					font-weight: 400
+				.btn
+					font-size: 12px
+					font-weight: 500
+					background-color: #D4B098
+					color: #fff
+					padding: 26px 38px 27px
+					margin-top: 38px
+					cursor: pointer
+					border: none
+		.btns
+			display: flex
+			justify-content: center
+			align-items: center
+			border-radius: 50%
+			border: none
+			position: absolute
+		.btns::before
+			content: ''
+			padding: 20px 5px
+			border-radius: 50%
+			cursor: pointer
+			border: none
+		.number
+			left: 46.5%
+			font-size: 12px
+			font-weight: 400
+			font-family: Prata
+		.prev
+			background-image: url(../img/slider/arrow_left.svg)
+			background-repeat: no-repeat
+			background-position: center
+			left: 45%
+		.next
+			background-image: url(../img/slider/arrow_right.svg)
+			background-repeat: no-repeat
+			background-position: center
+			left: 50%
+			
+
+#news
+	margin-bottom: 90px
+	.news
+		display: flex
+		justify-content: center
+		align-items: center
+		.news_title
+			margin-right: 42px
+			h2
+				font-size: 32px
+				font-weight: 400
+				margin-bottom: 40px
+				font-family: Playfair
+			p
+				font-size: 16px
+				font-weight: 400
+				margin-bottom: 107px
+				span
+					font-weight: 700
+			.links
+				img
+					margin: 10px
+		.news_image
+			display: grid
+			grid-template-columns: 250px 377px
+			grid-auto-rows: 237px
+			.image1
+				grid-column: 1 / 2
+				grid-row: 1 / 2
+			.image2
+				grid-column: 1 / 2
+				grid-row: 2 / 2
+			.image3
+				grid-column: 2 / 2
+
+#footer
+	background-color: #444240
+	.container
+		padding: 79px 0 67px
+		max-width: 998px
+		.mnu_footer_wrapper
+			display: flex
+			justify-content: space-between
+			.logo_info
+				img
+					padding-bottom: 30px
+				p
+					color: #fff
+					font-size: 12px
+					font-weight: 400
+					opacity: 0.75
+			.mnu_footer
+				display: flex
+				flex-direction: column
+				.heading
+					color: #fff
+					font-size: 14px
+					font-weight: 700
+					text-transform: uppercase
+					padding-bottom: 30px
+				ul
+					list-style-type: none
+					li
+						a
+							text-decoration: none
+							color: #fff
+							font-size: 12px
+							font-weight: 400
+							opacity: 0.75
